@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "3ed4e0fa15eb2173",
+    "type": "split",
+    "children": [
+      {
+        "id": "09670ac116b8fbde",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f64769674c744661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "026e8613ad650eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day 1 Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Day 1 Introduction"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d20c655bed2a8bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "21b83314e04cd29d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d5099764429aa72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84835e0f03662baa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c4ffe3638abf4979",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6aa38d04455cab90",
+    "type": "split",
+    "children": [
+      {
+        "id": "144db751471d3770",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86ad79b73b458648",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Day 1 Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Day 1 Introduction"
+            }
+          },
+          {
+            "id": "03cdd0bedc773412",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Day 1 Introduction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Day 1 Introduction"
+            }
+          },
+          {
+            "id": "13e80e7c77474cf1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "30fb1fe6c41d9934",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Day 1 Introduction.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Day 1 Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0d5099764429aa72",
+  "lastOpenFiles": [
+    "README.md",
+    "Day 1 Introduction.md"
+  ]
+}
