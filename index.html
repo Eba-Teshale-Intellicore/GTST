@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plan B: Quick Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Yenege Game</h1>
+        <p class="sub">Emoji • Trivia • Truth or Dare</p>
+      </header>
+
+      <section id="setup" class="card">
+        <p style="color: var(--muted); font-size: 16px; margin-top: 0">
+          Pick a mode to begin. You’ll get 10 random items in that mode.
+        </p>
+        <div id="modeSelect" class="mode-grid">
+          <button class="btn mode" data-mode="emoji">Emoji</button>
+          <button class="btn mode" data-mode="trivia">Trivia</button>
+          <button class="btn mode" data-mode="truthOrDare">
+            Truth or Dare
+          </button>
+        </div>
+        <div class="start-wrap">
+          <button id="startBtn" class="btn primary start" disabled>
+            Start Game
+          </button>
+        </div>
+      </section>
+
+      <section id="game" class="card hidden">
+        <div class="progress">
+          <span id="progressLabel">Question 1 of 10</span>
+        </div>
+        <div id="promptType" class="tag"></div>
+        <div id="promptText" class="prompt"></div>
+        <div id="choices" class="choices"></div>
+        <div class="actions">
+          <button id="backBtn" class="btn">Back</button>
+          <button id="skipBtn" class="btn hidden">Skip</button>
+          <button id="nextBtn" class="btn">Next</button>
+        </div>
+      </section>
+
+      <section id="results" class="card hidden">
+        <h2>Results</h2>
+        <div id="score"></div>
+        <div id="summary"></div>
+        <div class="actions">
+          <button id="homeBtn" class="btn">Home</button>
+          <button id="restartBtn" class="btn">Play Again</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
